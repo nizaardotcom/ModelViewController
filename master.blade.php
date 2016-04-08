@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portofolio</title>
+        <title>Selamat Datang</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -22,7 +22,7 @@
             .container {
                 text-align: center;
                 display: table-cell;
-                /*vertical-align: middle;*/
+                vertical-align: middle;
             }
 
             .content {
@@ -35,15 +35,15 @@
             }
 
             a {
-                color: black;
-                text-decoration: none;
+              color: black;
+              text-decoration: none;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title"><a href="about">Halaman Porofolio</a></div><hr>
+                @yield('content')
             </div>
         </div>
     </body>

@@ -13,9 +13,9 @@
 
 Route::get('/', 'LatihanController@index');
 
-Route::get('/portofolio', 'LatihanController@porto');
-
 Route::get('/about', 'LatihanController@about');
+
+Route::get('/portofolio', 'LatihanController@portofolio');
 
 // Route::get('/latihan1', function () {
 //   return view('latihan1');
